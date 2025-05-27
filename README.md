@@ -1,33 +1,107 @@
-This was a project handout about the class of "Embedded Systems" in Computer Science (DUTh).
+# Line Follower Robot Project  
+*Embedded Systems Class - Computer Science (DUTh)*
+
+---
+
+## Materials Needed
 
 To recreate this project, you will need:
-  1) Cytron Technologies Maker Pi RP2040
-  2) 2 DC Motors (ours are 120RPM, you can use more RPM if you want)
-  3) 3 TCRT5000 IR Sensors or any equivalent
-  4) 2 18650 Batteries
-  5) 1x 2-slot 18650 Battery Holder
-  6) A step-down voltage regulator (also known as a buck converter)
-  7) 2 Rubber Wheels
-  8) 2 Ball Caster Wheels
-  9) Time!
 
-How to create for yourself:
+1. **Cytron Technologies Maker Pi RP2040**  
+2. **2 DC Motors** (ours are 120RPM, but you can use motors with higher RPM)  
+3. **3 TCRT5000 IR Sensors** or any equivalent  
+4. **2 x 18650 Batteries**  
+5. **1 x 2-slot 18650 Battery Holder**  
+6. **A Step-Down Voltage Regulator** (buck converter)  
+7. **2 Rubber Wheels**  
+8. **2 Ball Caster Wheels**  
+9. **Time and Patience!**
 
--  Find a 20cm x 10cm piece of plastic or hard cardboard to use as your chassis (shorter length will work as well)
--  We recommend using glue to attach the motors to the side of the long side, to ensure the best traction.
--  Build a small base for the IR sensors and attach them to the center, side by side, with a gap of at least 1cm, to ensure you cover as much ground as possible.
--  Attach the base of the IR sensors under the chassis, preferably close to the center.
--  Attach 2 ball caster wheels, one on each side (you might need some standoffs to ensure clearance from the ground).
--  On the top side of the chassis, place the 18650 battery pack, the board and the step-down voltage regulator as you see fit.
--  Connect your IR sensors with the board by using the grove cables provided by the Maker Pi RP2040, as shown in the picture, using the digital pins of the sensors (or use separate pin cables if you want to do some cable management).
--  Connect the motors on the motor driver clamps (each motor has its own clamp).
--  Make sure the M1B and M2B LEDs are lighting up when you physically turn the motor counter-clockwise and M1A and M2A LEDs are lighting up when you physically turn the motor clockwise.
--  Alternatively, you can change the pins in the code to the opposite of what they are now (M1A's pin goes to M1B etc.). You will however have to change the way the motor output is handled in the code, if you choose to do it this way.
--  
--  Connect the board with a USB cable on your computer while holding down the BOOTSEL button, flip the switch on the ON setting and open Thonny to install MicroPython on your board.
--  After installing MicroPython on your board, copy the code provided in the code section of the repository.
--  Save the code in the board and rename the file to main.py
--  Flip the switch to the OFF setting, disconnect the board from the computer and plug the batteries on the battery holder.
--  Place your robot on your track and flip the ON switch to initiate the program.
+---
 
-Congratulations, you have created a line follower robot!
+## Assembly Instructions
+### Step 0: Solder the components
+To start, find some wires and solder the following:
+  -  The step-down voltage regulator inputs with the battery pack.
+  -  The step-down voltage regulator outputs with excess wires, so we can power the board.
+  -  Both pins of the motors.
+Soldering ensures that the connections are secure and there is not going to be any unexpected disconnection of the cables.
+
+### Step 1: Prepare the Chassis  
+Find a **20cm x 10cm** piece of plastic or hard cardboard for your chassis (a shorter length, e.g. 15cm, will also work).
+
+---
+
+### Step 2: Attach the Motors  
+Glue the motors on the sides of the long edge of the chassis to ensure the best traction.
+
+![Step 2 - Motors](path/to/photo2.jpg)
+
+---
+
+### Step 3: Mount the IR Sensors  
+Build a small base to hold the IR sensors side-by-side, preferably with at least a **1cm gap** between each sensor to cover more ground (the example is not 1cm).
+
+---
+
+### Step 4: Attach IR Sensors Under Chassis  
+Attach the IR sensor base under the chassis, preferably close to the center.
+
+![Step 4 - Sensors Under Chassis](path/to/photo4.jpg)
+
+---
+
+### Step 5: Add Ball Caster Wheels  
+Attach 2 ball caster wheels, one on each side. You might need standoffs to keep them clear of the ground.
+
+![Step 5 - Ball Casters](path/to/photo5.jpg)
+
+---
+
+### Step 6: Place Battery Pack, Board, and Regulator  
+Arrange the 18650 battery pack, Maker Pi RP2040 board, and step-down voltage regulator on top of the chassis as you see fit.
+
+![Step 6 - Electronics Placement](path/to/photo6.jpg)
+
+---
+
+### Step 7: Connect IR Sensors to Board  
+Use the Grove cables provided with the Maker Pi RP2040 (or separate cables if preferred) to connect the IR sensors to the board digital pins.
+
+![Step 7 - IR Sensor Wiring](path/to/photo7.jpg)
+
+---
+
+### Step 8: Connect Motors to Motor Driver  
+Connect each motor to its corresponding motor driver clamp.  
+- Check that **M1B** and **M2B** LEDs light up when you turn the motors counter-clockwise  
+- **M1A** and **M2A** LEDs light up when turning clockwise  
+- If LEDs are reversed, swap M1A and M1B (same for M2) and adjust your code accordingly.
+
+![Step 8 - Motor Connection](path/to/photo8.jpg)
+
+---
+
+### Step 9: Install MicroPython and Upload Code  
+- Connect your board to the PC via USB while holding the **BOOTSEL** button  
+- Flip the power switch to ON  
+- Open **Thonny IDE** and install MicroPython on your board  
+- Copy the provided code from the repository  
+- Save it on the board as `main.py`
+
+![Step 9 - MicroPython Installation](path/to/photo9.jpg)
+
+---
+
+### Step 10: Power and Test Your Robot  
+- Flip the power switch to OFF  
+- Disconnect USB and connect the batteries to the battery holder  
+- Place your robot on the track and switch power ON to start the program  
+
+Congratulations! You’ve created a **line follower robot**!
+
+This project was created by:
+  - Nick Chaitas
+  - Zois Alexandridis
+  - Pavlos Amanatidis
+  - Alkiviadis Ballas
