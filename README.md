@@ -52,7 +52,7 @@ Attach the IR sensor base under the chassis, preferably close to the center.
 ---
 
 ### Step 5: Add Ball Caster Wheels  
-Attach 2 ball caster wheels, one on each side. You might need standoffs to keep them clear of the ground.
+Attach 2 ball caster wheels, one on each side. You might need standoffs for the sensors to have enough clearance from the ground.
 
 ![Step 5 - Ball Casters](photos/attach_ball_caster.png)
 
