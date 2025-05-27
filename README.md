@@ -100,7 +100,7 @@ Connect each motor to its corresponding motor driver clamp.
 - Disconnect USB and connect the batteries to the battery holder  
 - Place your robot on the track and switch power ON to start the program  
 
-Congratulations! You’ve created a **line follower robot**!
+**Congratulations! You’ve created a **line follower robot**!**
 
 This project was created by:
   - Nick Chaitas
