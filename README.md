@@ -61,14 +61,15 @@ Attach 2 ball caster wheels, one on each side. You might need standoffs to keep 
 ### Step 6: Place Battery Pack, Board, and Regulator  
 Arrange the 18650 battery pack, Maker Pi RP2040 board, and step-down voltage regulator on top of the chassis as you see fit.
 
-![Step 6 - Electronics Placement](path/to/photo6.jpg)
+![Step 6 - Electronics Placement](photos/top_view.jpg)
 
 ---
 
 ### Step 7: Connect IR Sensors to Board  
 Use the Grove cables provided with the Maker Pi RP2040 (or separate cables if preferred) to connect the IR sensors to the board digital pins.
 
-![Step 7 - IR Sensor Wiring](path/to/photo7.jpg)
+![Step 7a - IR Sensor Wiring](photos/connect_sensors_1.png)
+![Step 7b - IR Sensor Wiring](photos/connect_sensors_2.png)
 
 ---
 
@@ -78,7 +79,8 @@ Connect each motor to its corresponding motor driver clamp.
 - **M1A** and **M2A** LEDs light up when turning clockwise  
 - If LEDs are reversed, swap M1A and M1B (same for M2) and adjust your code accordingly.
 
-![Step 8 - Motor Connection](path/to/photo8.jpg)
+![Step 8a - Motor Connection](photos/connect_motors_1.png)
+![Step 8b - Motor Connection](photos/connect_motors_2.png)
 
 ---
 
@@ -88,8 +90,6 @@ Connect each motor to its corresponding motor driver clamp.
 - Open **Thonny IDE** and install MicroPython on your board  
 - Copy the provided code from the repository  
 - Save it on the board as `main.py`
-
-![Step 9 - MicroPython Installation](path/to/photo9.jpg)
 
 ---
 
