@@ -41,7 +41,7 @@ Glue the motors on the sides of the long edge of the chassis to ensure the best 
 
 ### Step 3: Mount the IR Sensors  
 Build a small base to hold the IR sensors side-by-side, preferably with at least a **1cm gap** between each sensor to cover more ground (the example is not 1cm).
-
+Example mount is shown in Step 4.
 ---
 
 ### Step 4: Attach IR Sensors Under Chassis  
