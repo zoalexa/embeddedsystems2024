@@ -70,6 +70,8 @@ Use the Grove cables provided with the Maker Pi RP2040 (or separate cables if pr
 
 ![Step 7a - IR Sensor Wiring](photos/connect_sensors_1.png)
 
+
+
 ![Step 7b - IR Sensor Wiring](photos/connect_sensors_2.png)
 
 ---
@@ -81,6 +83,8 @@ Connect each motor to its corresponding motor driver clamp.
 - If LEDs are reversed, swap M1A and M1B (same for M2) and adjust your code accordingly.
 
 ![Step 8a - Motor Connection](photos/connect_motors_1.png)
+
+
 
 ![Step 8b - Motor Connection](photos/connect_motors_2.png)
 
