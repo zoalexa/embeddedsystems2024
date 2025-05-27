@@ -7,14 +7,14 @@
 
 To recreate this project, you will need:
 
-1. **Cytron Technologies Maker Pi RP2040**  
-2. **2 DC Motors** (ours are 120RPM, but you can use motors with higher RPM)  
-3. **3 TCRT5000 IR Sensors** or any equivalent  
-4. **2 x 18650 Batteries**  
-5. **1 x 2-slot 18650 Battery Holder**  
-6. **A Step-Down Voltage Regulator** (buck converter)  
-7. **2 Rubber Wheels**  
-8. **2 Ball Caster Wheels**  
+1. **1x Cytron Technologies Maker Pi RP2040**  
+2. **2x DC Motors** (ours are 120RPM, but you can use motors with higher RPM)  
+3. **3x TCRT5000 IR Sensors** or any equivalent  
+4. **2x 18650 Batteries**  
+5. **1x 2-slot 18650 Battery Holder**  
+6. **1x Step-Down Voltage Regulator** (buck converter)  
+7. **2x Rubber Wheels**  
+8. **2x Ball Caster Wheels**  
 9. **Time and Patience!**
 
 ---
