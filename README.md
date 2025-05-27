@@ -78,7 +78,7 @@ Use the Grove cables provided with the Maker Pi RP2040 (or separate cables if pr
 Connect each motor to its corresponding motor driver clamp.  
 - Check that **M1B** and **M2B** LEDs light up when you turn the motors counter-clockwise  
 - **M1A** and **M2A** LEDs light up when turning clockwise  
-- If LEDs are reversed, swap M1A and M1B (same for M2) and adjust your code accordingly.
+- If LEDs are reversed, swap M1A and M1B (same for M2), so you don't have to change your code..
 
 ![Step 8a - Motor Connection](photos/connect_motors_1.png)
 
@@ -98,7 +98,7 @@ Connect each motor to its corresponding motor driver clamp.
 ### Step 10: Power and Test Your Robot  
 - Flip the power switch to OFF  
 - Disconnect USB and connect the batteries to the battery holder  
-- Place your robot on the track and switch power ON to start the program  
+- Place your robot on the track and switch power ON to start the program
 
 **Congratulations! You’ve created a **line follower robot**!**
 
@@ -107,3 +107,15 @@ This project was created by:
   - Zois Alexandridis
   - Pavlos Amanatidis
   - Alkiviadis Ballas
+
+---
+
+### Step 10: Modify the Code
+- The algorithm that this code uses is the PID algorithm.  
+- In order to modify the code, reconnect the board using your USB cable to your computer. **REMOVE THE BATTERIES FIRST!**
+- Open Thonny and load `main.py`
+- Here, you can tweak the variables Kp, Ki, Kd, base_speed, max_offset and the motor frequency to your liking. You can probably create something better by modifying the code!
+- Save and disconnect the robot from your computer.
+- Place the batteries in the battery holder.
+- Place the robot on the track and flip the switch to the ON setting.
+- Test as much as you wish!
