@@ -83,11 +83,11 @@ Connect each motor to its corresponding motor driver clamp.
 - If LEDs are reversed, swap M1A and M1B (same for M2) and adjust your code accordingly.
 
 ![Step 8a - Motor Connection](photos/connect_motors_1.png)
-
+** MOTOR WIRING BOTTOM VIEW **
 
 
 ![Step 8b - Motor Connection](photos/connect_motors_2.png)
-
+** MOTOR WIRING FRONT VIEW **
 ---
 
 ### Step 9: Install MicroPython and Upload Code  
