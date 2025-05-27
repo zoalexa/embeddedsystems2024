@@ -92,6 +92,7 @@ Connect each motor to its corresponding motor driver clamp.
 - Copy the provided code from the repository  
 - Save it on the board as `main.py`
 
+![Step 9 - BOOTSEL and Switch](photos/bootsel_and_switch.png)
 ---
 
 ### Step 10: Power and Test Your Robot  
