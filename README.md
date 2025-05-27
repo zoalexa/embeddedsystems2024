@@ -35,7 +35,7 @@ Find a **20cm x 10cm** piece of plastic or hard cardboard for your chassis (a sh
 ### Step 2: Attach the Motors  
 Glue the motors on the sides of the long edge of the chassis to ensure the best traction.
 
-![Step 2 - Motors](path/to/photo2.jpg)
+![Step 2 - Motors](photos/attach_motors.png)
 
 ---
 
@@ -47,14 +47,14 @@ Build a small base to hold the IR sensors side-by-side, preferably with at least
 ### Step 4: Attach IR Sensors Under Chassis  
 Attach the IR sensor base under the chassis, preferably close to the center.
 
-![Step 4 - Sensors Under Chassis](path/to/photo4.jpg)
+![Step 4 - Sensors Under Chassis](photos/attach_sensors.png)
 
 ---
 
 ### Step 5: Add Ball Caster Wheels  
 Attach 2 ball caster wheels, one on each side. You might need standoffs to keep them clear of the ground.
 
-![Step 5 - Ball Casters](path/to/photo5.jpg)
+![Step 5 - Ball Casters](photos/attach_ball_caster.png)
 
 ---
 
