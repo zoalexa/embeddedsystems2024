@@ -89,7 +89,7 @@ Connect each motor to its corresponding motor driver clamp.
 - Connect your board to the PC via USB while holding the **BOOTSEL** button  
 - Flip the power switch to ON  
 - Open **Thonny IDE** and install MicroPython on your board  
-- Copy the provided code from the repository  
+- Copy the provided code (`main.py`) from the repository
 - Save it on the board as `main.py`
 
 ![Step 9 - BOOTSEL and Switch](photos/bootsel_and_switch.png)
