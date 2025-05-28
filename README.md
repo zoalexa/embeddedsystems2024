@@ -110,7 +110,7 @@ This project was created by:
 
 ---
 
-### Step 10: Modify the Code
+### Step 10 (Optional): Modify the Code
 - The algorithm that this code uses is the PID algorithm.  
 - In order to modify the code, reconnect the board using your USB cable to your computer. **REMOVE THE BATTERIES FIRST!**
 - Open Thonny and load `main.py`
