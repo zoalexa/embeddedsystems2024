@@ -20,7 +20,7 @@ center_ir = Pin(27, Pin.IN)
 #PID variables
 Kp = 0.4 # Proportional gain #0.26
 Ki = 0.0 # Integral gain
-Kd = 0.16 # Derivative gain #0.2
+Kd = 0.12 # Derivative gain #0.2
 
 last_movement = ''
 
